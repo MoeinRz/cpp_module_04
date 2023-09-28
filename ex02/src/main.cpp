@@ -29,13 +29,8 @@ int main()
 			std::cout << std::endl;
 		}
 	}
-	// for (int i = 0; i < 10; i++)
-	// {
-	// 	if (i % 2)
-	// 		std::cout << i << ": " << ((Cat *)CatsAndDogs[i])->getType() << std::endl;
-	// 	else
-	// 		std::cout << i << ": " << ((Cat *)CatsAndDogs[i])->getType() << std::endl;
-	// }
+	((Cat *)CatsAndDogs[0])->makeSound();
+	((Dog *)CatsAndDogs[1])->makeSound();
 	std::cout << "==========================" << std::endl;
 	for (int i = 0; i < 10; i++)
 	{
