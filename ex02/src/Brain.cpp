@@ -28,3 +28,8 @@ std::string Brain::getIdea(int index)
 {
     return (this->_ideas[index]);
 }
+
+void Brain::setIdea(int index, std::string idea)
+{
+    this->_ideas[index] = idea;
+}

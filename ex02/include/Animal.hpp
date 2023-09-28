@@ -3,6 +3,7 @@
 
 # include <iostream>
 # include <string>
+# include "Brain.hpp"
 
 class Animal
 {
@@ -15,6 +16,7 @@ class Animal
         virtual ~Animal(void);
         Animal          &operator=(const Animal &copy);
         virtual void    makeSound(void) const = 0;
+        virtual Brain	*getBrain(void) const = 0;
         std::string		getType(void)const;
 
 };

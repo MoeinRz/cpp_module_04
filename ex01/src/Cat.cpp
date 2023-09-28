@@ -29,10 +29,10 @@ Cat  &Cat::operator=(const Cat &copy)
 
 void    Cat::makeSound(void)const
 {
-    std::cout << "Meeeeooooo..." << std::endl;
+    std::cout << "Meeeeooooo...   ";
 }
 
-Brain* Cat::getBrain()
+Brain* Cat::getBrain() const
 {
     return (this->_catBrain);
 }

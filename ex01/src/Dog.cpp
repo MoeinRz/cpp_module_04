@@ -29,10 +29,10 @@ Dog  &Dog::operator=(const Dog &copy)
 
 void    Dog::makeSound() const
 {
-    std::cout << "Wouf Wouf..." << std::endl;
+    std::cout << "Wouf Wouf...    ";
 }
 
-Brain* Dog::getBrain()
+Brain* Dog::getBrain() const
 {
     return (this->_dogBrain);
 }
