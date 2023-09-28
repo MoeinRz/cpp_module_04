@@ -28,14 +28,3 @@ std::string Brain::getIdea(int index)
 {
     return (this->_ideas[index]);
 }
-
-// void Brain::setIdea(int index, std::string idea)
-// {
-//     this->_ideas[index] = idea;
-// }
-
-// void Brain::showIdeas(int index)
-// {
-//     for (int i = 0; i < index; i++)
-//         std::cout << this->_ideas[i] << std::endl;
-// }

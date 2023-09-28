@@ -15,7 +15,6 @@ class Cat : public Animal
         ~Cat(void);
         Cat&    operator=(const Cat& copy);
         void    makeSound(void) const;
-        // void    setBrain(int index, std::string idea);
         Brain* getBrain();
 };
 

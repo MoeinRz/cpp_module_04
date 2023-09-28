@@ -32,11 +32,6 @@ void    Dog::makeSound() const
     std::cout << "Wouf Wouf..." << std::endl;
 }
 
-// void    Dog::setBrain(int index, std::string idea)
-// {
-//     this->_dogBrain->setIdea(index, idea);
-// }
-
 Brain* Dog::getBrain()
 {
     return (this->_dogBrain);

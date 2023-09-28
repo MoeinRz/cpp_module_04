@@ -17,9 +17,9 @@ int main()
 	for (int i = 0; i < 10; i++)
 	{
 		if (i % 2)
-			std::cout << "CAT " << i << ":" << ((Cat *)CatsAndDogs[i])->getBrain() << std::endl;
+			std::cout << i << ": " << ((Cat *)CatsAndDogs[i])->getType() << std::endl;
 		else
-			std::cout << "DOG " << i << ": " << ((Cat *)CatsAndDogs[i])->getBrain()->getIdea(i) << std::endl;
+			std::cout << i << ": " << ((Cat *)CatsAndDogs[i])->getType() << std::endl;
 	}
 	std::cout << "==========================" << std::endl;
 	for (int i = 0; i < 10; i++)

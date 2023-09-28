@@ -32,11 +32,6 @@ void    Cat::makeSound(void)const
     std::cout << "Meeeeooooo..." << std::endl;
 }
 
-// void    Cat::setBrain(int index, std::string idea)
-// {
-//     _catBrain->setIdea(index, idea);
-// }
-
 Brain* Cat::getBrain()
 {
     return (this->_catBrain);
